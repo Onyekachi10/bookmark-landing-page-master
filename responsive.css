@@ -478,7 +478,7 @@ p.bookP,h2#book,input.btn {
     display: grid;
     grid-template-columns: 250%;
     position: relative;
-    right: 20pc;
+    right: 25pc;
     top: 25pc;
     text-align: center;  
 }
