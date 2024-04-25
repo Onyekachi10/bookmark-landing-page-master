@@ -479,12 +479,16 @@ p.bookP,h2#book,input.btn {
     grid-template-columns: 250%;
     position: relative;
     right: 20pc;
-    top: 20pc;
+    top: 25pc;
     text-align: center;  
 }
 
 input.btn {
     right: 14pc;
+}
+
+p.list {
+    font-size: 20px;
 }
 
 p.feat {
