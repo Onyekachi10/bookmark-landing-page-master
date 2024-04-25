@@ -1,0 +1,609 @@
+
+/* LAPTOP SECTION*/
+@media screen and (max-width:1024px) and (min-width:768px)  {
+  
+    a.brand img {
+        padding-left: 1pc;
+    }
+
+div.nav-items a {
+    position: relative; 
+    left: 20pc;
+    bottom: 1.5pc;
+    font-size: 15px;
+}
+
+/* HEAD OF CONTENT */
+
+div.content {
+    padding: 200px 60px;
+    display: grid;
+    grid-template-columns: 70%;
+    background-position: 35pc;
+   
+}
+
+h1,h2,h3,h5 {
+    font-size: 30px;  
+}
+
+p.head {
+    font-size: 15px;
+}
+
+input {
+    margin: 2px;
+}
+
+
+/* FEATURES SECTION */
+
+img.feat_img {
+    position: relative;
+    left: -2pc;
+}
+
+p.bookP {
+    display: grid;
+    grid-template-columns: 80%;
+}
+
+/* DOWNLOAD SECTION */
+
+div.down {
+    grid-template-columns: 80%;
+}
+
+
+div.Chrome,div.Firefox,div.Opera {
+    padding: 20px 20px;
+    background-position-y: 78%;
+}
+
+div.Opera {
+    left:32pc;
+}
+
+/* TESTIMONIAL SECTION */
+
+h5 {
+    right: 6pc;
+    font-size: 20px;
+}
+
+p.FAQs__answer {
+  grid-template-columns: 40%;
+}
+
+/* FOOTER SECTION */
+div.nav_2 a {
+    position: relative; 
+   color: white;
+   left: 13pc;
+    font-size: 13px;  
+}
+
+
+div.social a {
+    position: relative;
+    left: 40pc;
+    bottom: 2.5pc;
+
+}
+}
+
+/* TABLET SECTION */
+@media screen and (max-width:767px) and (min-width:650px) {
+    
+    a.brand img{
+        position: relative;
+        right: 3pc;
+        width: 150px;
+}
+    
+    div.menu-bar {
+        background-image: url("./images/icon-hamburger.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 17%;
+        height: 19px;
+        cursor: pointer;
+        position: relative;
+        left: 40pc;
+        bottom: 1pc;
+        
+    }
+
+    div.navigation {
+        display: none;
+        
+    }
+
+    nav { 
+        margin-top: 1px;
+    }
+
+    div.nav-items a {
+        color: hsl(0, 0%, 99%);
+     
+    }
+
+    nav.main-active {
+       background-color:hsl(231, 40%, 24%);
+       width: 100%;
+       
+    }
+
+    div.nav_active {
+        display: block;
+        position: relative;
+        right:43pc;
+        top: 10px;   
+    }
+
+    .nav-items_active a{
+        display: grid;
+        justify-content: center;
+        place-items: center;
+        
+    }
+
+    div.nav-items a.log {
+       width: fit-content;
+       margin: 0 auto;
+    }
+ 
+
+/* HEAD OF CONTENT */
+
+div.content {
+    padding: 200px 60px;
+    display: grid;
+    grid-template-columns: 60%;
+    background-position: 35pc;
+   
+}
+
+/* FEATURES SECTION */
+
+img.feat_img {
+    position: relative;
+    left: -5pc;
+    width: 400px;
+}
+
+p.bookP {
+    display: grid;
+    grid-template-columns: 80%;
+}
+
+p.feat {
+    font-size: 15px;
+}
+
+/* DOWNLOAD SECTION */
+
+div.down {
+    grid-template-columns: 70%;
+}
+
+h2.load{
+    text-align: center;
+}
+
+
+
+div.Chrome,div.Firefox,div.Opera {
+    padding: 20px 10px;
+    background-position-y: 78%;
+}
+
+div.Opera {
+    left:25pc;
+}
+
+
+
+/* TESTIMONIAL SECTION */
+
+h5 {
+    right: 6pc;
+}
+
+p.FAQs__answer {
+  grid-template-columns: 40%;
+}
+
+
+/* FOOTER SECTION */
+div.nav_2 a {
+   left: 12pc; 
+}
+
+
+div.social a {
+    left: 35pc;
+}
+}
+
+
+/* LARGE MOBILE SCREEN */
+@media screen and (max-width:649px) and (min-width:430px) {
+     
+    a.brand img{
+        position: relative;
+        right: 3pc;
+        width: 150px;
+}
+    
+    div.menu-bar {
+        background-image: url("./images/icon-hamburger.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 17%;
+        height: 19px;
+        cursor: pointer;
+        position: relative;
+        left: 35pc;
+        bottom: 1pc;
+        
+    }
+
+    div.navigation {
+        display: none;
+        
+    }
+
+    nav { 
+        margin-top: 1px;
+    }
+
+    div.nav-items a {
+        color: hsl(0, 0%, 99%);
+     
+    }
+
+    nav.main-active {
+       background-color:hsl(231, 40%, 24%);
+       width: 100%;
+       
+    }
+
+    div.nav_active {
+        display: block;
+        position: relative;
+        right:43pc;
+        top: 10px;   
+    }
+
+    .nav-items_active a{
+        display: grid;
+        justify-content: center;
+        place-items: center;
+        
+    }
+
+    div.nav-items a.log {
+       width: fit-content;
+       margin: 0 auto;
+    }
+
+    /* CONTENT HEAD SECTION */
+    div.content {
+        padding: 200px 40px;
+        display: grid;
+        grid-template-columns: 60%;
+        background-position: 25pc;
+       
+    }
+    
+    
+/* FEATURES SECTION */
+.row {
+    padding: 30px 10px;
+  }
+
+img.feat_img {
+    position: relative;
+    left: -5pc;
+    width: 350px;
+}
+
+h2#book {
+    font-size: 20px;
+}
+
+p.bookP {
+    display: grid;
+    grid-template-columns: 149%;
+}
+
+p.feat {
+    font-size: 15px;
+}
+
+
+/* DOWNLOAD SECTION */
+
+div.down {
+    grid-template-columns: 100%;
+}
+
+h2.load{
+    text-align: center;
+}
+
+div.Chrome,div.Firefox,div.Opera {
+    padding: 30px;
+    position: relative;
+    left: 50%;
+    background-position-y: 75%;
+}
+
+/* TESTIMONIAL SECTION */
+
+h5 {
+    right: 6pc;
+}
+
+h2.monial {
+    text-align: center;
+    font-size: 30px;
+}
+
+p.FAQs__answer {
+  grid-template-columns: 100%;
+}
+
+p.test {
+    font-size: 15px;
+}
+
+/* FOOTER SECTION */
+div.nav_2 a {
+   left: 10pc;  
+}
+
+
+div.social a {
+    left: 32pc;
+}
+
+}
+
+/* MOBLIE SECTION */
+@media screen and (max-width:430px) and (min-width:250px)  {
+    a.brand img{
+        position: relative;
+        right: 4pc;
+        width: 150px;
+}
+    
+    div.menu-bar {
+        background-image: url("./images/icon-hamburger.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 17%;
+        height: 19px;
+        cursor: pointer;
+        position: relative;
+        left: 21pc;
+        bottom: 1pc;
+        
+    }
+
+    div.navigation {
+        display: none;
+        
+    }
+
+    nav { 
+        margin-top: 1px;
+    }
+
+    div.nav-items a {
+        color: hsl(0, 0%, 99%);
+     
+    }
+
+    nav.main-active {
+       background-color:hsl(231, 40%, 24%);
+       width: 100%;
+       
+    }
+
+    div.nav_active {
+        display: block;
+        position: relative;
+        right:43pc;
+        top: 10px;   
+    }
+
+    .nav-items_active a{
+        display: grid;
+        justify-content: center;
+        place-items: center;
+        
+    }
+
+    div.nav-items a.log {
+       width: fit-content;
+       margin: 0 auto;
+    }
+
+
+      /* CONTENT HEAD SECTION */
+      div.content {
+        background-position: top;
+        background-size: contain;
+        grid-template-columns: 100%;
+        padding: 300px 40px;
+    }
+
+    h1,p.head {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p.head {
+        font-size: 15px;
+    }
+
+    input.on,input.fire {
+        position: relative;
+        right: 2pc;
+    }
+
+     
+/* FEATURES SECTION */
+.row {
+    padding: 30px 10px;
+  }
+
+  div.lift {
+    padding: 0px 40px;
+  }
+
+img.feat_img {
+    position: relative;
+    left: 5pc;
+    width: 450px;
+}
+
+h2#book {
+    font-size: 25px;
+}
+
+p.bookP,h2#book,input.btn {
+    display: grid;
+    grid-template-columns: 250%;
+    position: relative;
+    right: 20pc;
+    top: 20pc;
+    text-align: center;  
+}
+
+input.btn {
+    right: 14pc;
+}
+
+p.feat {
+    font-size: 13px;
+}
+
+ span.features_table{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+}
+
+
+/* DOWNLOAD SECTION */
+
+div.down {
+    padding: 350px 50px;
+    grid-template-columns: 100%;
+}
+
+h2.load{
+    text-align: center;
+}
+
+div.Chrome,div.Firefox,div.Opera {
+    position: relative;
+    bottom: 13pc;
+    padding: 30px;
+    position: relative;
+    left: 5%;
+    background-position-y: 75%;
+}
+
+
+div.Firefox {
+    top: -7pc;
+}
+
+div.Opera {
+    position: relative;
+    top: 3pc;
+}
+
+
+/* TESTIMONIAL SECTION */
+
+h5 {
+    right: 0;
+    text-align: center;
+}
+
+h2.monial {
+    text-align: center;
+    font-size: 30px;
+}
+
+p.FAQs__answer {
+    right: 0;
+  grid-template-columns: 100%;
+}
+
+p.test {
+    font-size: 15px;
+}
+
+img.plus__sub {
+    left: 15pc;   
+}
+
+img.hide {
+    left: 15pc;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    padding: 40px 40px;
+    width: 90%;
+}
+
+a.brand_2 img {
+    margin: 10px;
+    left: 28%;
+    margin-bottom: 2pc;
+}
+h6 {
+    font-size: 20px;
+}
+div.close {
+    background-color: hsl(229, 31%, 21%);
+    width: 100%;
+    height: 280px;
+}
+
+input#email {
+    background-color: white;
+    color: black;
+    width: 40%;
+}
+
+button.con {
+    padding: 15px 20px;
+}
+
+div.social  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+div.nav_2 a {
+    left: 0;
+   display: grid; 
+   justify-content: center;
+   place-items: center;
+}
+
+
+
+ 
+}

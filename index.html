@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Bookmark landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+   <nav class="main">
+    <a href="index.html" class="brand">
+      <img src="./images/logo-bookmark.svg" alt="logo" width="200">
+    </a>
+
+    <div class="menu-bar"></div>
+    <div class="navigation">
+      <div class="nav-items">
+        <a href="#"> Features</a>
+        <a href="#"> Pricing</a>
+        <a href="#"> Contact</a>
+        <a href="#" class="log">Login</a>
+      </div>
+    </div>
+   </nav>
+
+
+   <div class="content hide">
+      <h1>A Simple Bookmark Manager</h1>
+      <p class="head">
+        A clean and simple interface to organize
+         your favourite websites. Open a new browser tab and see
+          your sites load instantly. Try it for free.
+      </p>
+    
+      <p class="button">
+        <input type="button" class="on" value="Get it on Chrome">
+        <input type="button" class="fire" value="Get it on Firefox">
+      </p>
+   </div>
+
+
+   <div class="features hide lift">
+
+    <h2>Features</h2>
+    <p class="feat">
+      Our aim is to make it quick and easy for you to access
+       your favourite websites. <br>
+  Your bookmarks sync between your devices so you can <br>
+  access them on the go.
+    </p>
+
+    <span class="features_table">
+      <p class="list">Simple Bookmarking</p>
+      <p class="list">Speedy Searching</p>
+      <p class="list">Easy Sharing</p>
+    </span>
+  
+    <div class="row hide">
+      <div class="column">
+          <img src="./images/illustration-features-tab-1.svg" 
+          alt="features content" width="500" class="feat_img">
+            </div>
+
+           
+      <div class="column hide" style="animation-delay: 0.6s;">
+        <h2 id="book">Bookmark in one click</h2>
+        <p class="bookP"> Organize your bookmarks however you like. Our simple drag-and-drop interface 
+          gives you complete control over how you manage your favourite sites.</p>
+        <input type="button" class="more btn" value="More Info">
+      </div>
+    </div>
+</div>
+
+    <div class="down hide">
+      <h2 class="load">Download the extension</h2>
+    
+    <p class="down">
+      We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+  got a favourite you’d like us to prioritize.
+    </p>  
+    
+</div>
+    <div class="row_2 hide">
+      <div class="column_2">
+        <div class="Chrome">
+          <img src="./images/logo-chrome.svg" alt="logo-chrome" 
+        class="chrome">
+        <h3>Add to Chrome</h3>
+        <p>Minimum version 62</p>
+        <br><br>
+        <input type="button" class="more" value="Add & Install Extension">
+        </div>
+      </div>
+      <div class="column_2">
+        <div class="Firefox">
+          <img src="./images/logo-firefox.svg" alt="logo-chrome" 
+        class="chrome">
+        <h3>Add to Firefox</h3>
+        <p>Minimum version 55</p>
+        <br><br>
+        <input type="button" class="more" value="Add & Install Extension">
+        </div>
+      </div>
+      <div class="column_2">
+        <div class="Opera">
+          <img src="./images/logo-opera.svg" alt="logo-chrome" 
+          class="chrome">
+          <h3>Add to Opera</h3>
+          <p>Minimum version 46</p>
+          <br><br>
+        <input type="button" class="more" value="Add & Install Extension">
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="testmonial hide">
+      <h2 class="monial">Frequently Asked Questions</h2>
+      <p class="test">
+        Here are some of our FAQs. If you have any other questions you’d like 
+        answered please feel free to email us.
+      </p>
+
+      <hr>
+<button type="button" class="btn FAQs__item">
+  <section class="get">
+<h5>What is Bookmark?</h5>
+    <img src="./images/icon-arrow.svg"
+    alt="show answer button" class="plus__sub">
+  </section>
+  <p class="FAQs__answer">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+    justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.  
+  </p>
+</button>
+
+<hr>
+<button type="button" class="btn FAQs__item">
+  <section class="get">
+  <h5>  How can I request a new browser? </h5>
+    <img src="./images/icon-arrow.svg"
+    alt="show answer button" class="plus__sub">
+    
+  </section>
+  <p class="FAQs__answer">
+    Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+    Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+    ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+    Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+  </p>
+</button>
+
+<hr>
+<button type="button" class="btn FAQs__item">
+  <section class="get">
+  <h5>Is there a mobile app?</h5>
+    <img src="./images/icon-arrow.svg"
+    alt="show answer button" class="plus__sub">
+  </section>
+  <p class="FAQs__answer">
+    Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+  urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+  sollicitudin ex et ultricies bibendum.
+  </p>
+</button>
+
+<hr>
+<button type="button" class="btn FAQs__item">
+  <section class="get">
+  <h5>   What about other Chromium browsers?</h5>
+    <img src="./images/icon-arrow.svg"
+    alt="show answer button" class="plus__sub">
+  </section>
+  <p class="FAQs__answer">
+    Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+  vitae neque eget nisl gravida pellentesque non ut velit.
+  </p>
+</button>
+<br>
+<br>
+<hr>
+
+<input type="button" class="more" value="More Info">
+    </div>
+  <footer>
+     
+    <p class="end">35,000+ already joined</p>
+    <h6> Stay up-to-date with what<br> we’re doing</h6>
+    <p>
+      <input type="email" name="email" id="email" 
+      placeholder="joe@email.com" required autocomplete="email">
+      <button class="con">Contact Us</button>
+      <br>
+      <span id="email-err"></span>
+    </p>
+
+
+  </footer>
+  <div class="close">
+    <nav>
+      <a href="index.html" class="brand_2">
+        <img src="./images/logo-bookmark.svg" alt="logo" width="150">
+      </a>
+  
+      <div class="navigation_2">
+        <div class="nav-items nav_2">
+          <a href="#"> Features</a>
+          <a href="#"> Pricing</a>
+          <a href="#"> Contact</a>
+
+      <div class="social">
+       <a href="">
+        <img src="./images/icon-facebook.svg" alt="facebook">
+       </a>
+       <a href="">
+        <img src="./images/icon-twitter.svg" alt="facebook">
+       </a>
+      </div>
+        </div> 
+        </div>
+     </nav>
+  </div>
+</body>
+</html>

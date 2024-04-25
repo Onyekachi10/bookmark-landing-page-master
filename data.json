@@ -1,0 +1,29 @@
+{    "intro": [
+    {
+      "image": {
+        "svg" : "./images/illustration-features-tab-1.svg"
+      },
+     "name" : "Bookmark in one click",
+     "note" : "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.",
+    "more" :"More Info"
+    },
+
+{     
+    "image" :{
+        "svg":"./images/illustration-features-tab-2.svg"
+    },
+    "name" : "Intelligent search",
+    "note" : "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.",
+     "more" : "More Info"
+},
+    
+   {
+    "image":{
+        "svg":"./images/illustration-features-tab-3.svg"
+    },
+    "name" : "Share your bookmarks",
+     "note": "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.",
+     "more": "More Info"
+   }
+]
+}
