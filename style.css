@@ -48,7 +48,7 @@ div.nav-items a.log:hover {
     box-shadow: 2px 2px 2px 2px rgb(129, 128, 128);
 }
 
-/* 
+
 .hide {
     opacity :0;
     filter: blur(5px);
@@ -62,7 +62,7 @@ div.nav-items a.log:hover {
     transform: translateX(0);
     transition: all 2s;
 
-} */
+}
 
 
 /* HEAD OF CONTENT */
@@ -317,6 +317,7 @@ hr {
 footer {
     padding: 90px 40px;
     width: 100%;
+    height: 450px;
     display: grid;
     place-items: center;
     justify-content: center;
@@ -359,14 +360,15 @@ button.con:hover {
 
 div.close {
     background-color: hsl(229, 31%, 21%);
-    width: 100%;
+    width: 100%; 
 }
 
 
 a.brand_2 img{
     position: relative;
     background-color: white;
-    padding: 10px 5px;   
+    padding: 2px 5px; 
+    width: inherit;  
 }
 
 div.nav_2 a {
