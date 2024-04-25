@@ -478,13 +478,13 @@ p.bookP,h2#book,input.btn {
     display: grid;
     grid-template-columns: 250%;
     position: relative;
-    right: 25pc;
+    right: 19pc;
     top: 25pc;
     text-align: center;  
 }
 
 input.btn {
-    right: 14pc;
+    right: 13pc;
 }
 
 p.list {
